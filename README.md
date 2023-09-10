@@ -11,11 +11,15 @@
 
 ## Complilation of Code
 
-commands to run the code files
+compiling the code
 
-bash
+```bash
 gcc -o filename filename.c -lpcap
+```
 
-    
-bash
+Running the code
+
+
+```bash
 sudo ./filename
+```
