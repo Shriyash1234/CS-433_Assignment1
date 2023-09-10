@@ -43,7 +43,7 @@ int main(int argc, char *argv[]) {
     }
 
     // Array to store unique TCP flow tuples
-    struct TCPFlow flow_list[1024];  // Assuming a maximum of 1024 unique flows
+    struct TCPFlow flow_list[2048];  // Assuming a maximum of 1024 unique flows
     int flow_count = 0;
 
     while (true) {
