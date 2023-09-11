@@ -13,6 +13,9 @@
 
 compiling the code
 
+for first part
+
+
 ```bash
 gcc -o filename filename.c -lpcap
 ```
@@ -22,4 +25,16 @@ Running the code
 
 ```bash
 sudo ./filename
+```
+
+for second part
+
+
+```bash
+gcc -o filename filename.c -lpcap
+```
+
+
+```bash
+sudo ./filename  filnumber.pcap
 ```
